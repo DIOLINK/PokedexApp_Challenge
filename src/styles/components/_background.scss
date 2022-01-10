@@ -1,0 +1,18 @@
+.background__first {
+  background: linear-gradient(to right, white 32%, black 32% 33%, red 33% 50%);
+  color: white;
+  position: relative;
+  height: 100vh;
+}
+
+.background__first::after {
+  content: '';
+  border-radius: 50%;
+  background-color: white;
+  border: 1vw solid black;
+  bottom: 20vh;
+  height: 8vw;
+  width: 8vw;
+  position: absolute;
+  left: 27.5%;
+}
