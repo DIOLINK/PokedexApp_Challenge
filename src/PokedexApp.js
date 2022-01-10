@@ -1,4 +1,4 @@
 import './styles/index.scss';
 export const PokedexApp = () => {
-  return <div>Hola</div>;
+  return <div className="background__first"></div>;
 };
