@@ -1,0 +1,31 @@
+.container_center {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex: 1 1 auto;
+  z-index: 1;
+}
+
+.container_evenly {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  flex: 1 1 auto;
+  z-index: 1;
+}
+
+.container_aline-center {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+}
+
+.container_center-colum {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 1;
+}
